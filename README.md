@@ -62,26 +62,26 @@ The agent has access to the following tools:
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Agent Orchestration | LangGraph |
-| LLM | OpenAI GPT-4o-mini |
-| Tools & Chains | LangChain, LangChain Community |
-| Browser Automation | Playwright |
-| UI | Gradio |
-| Environment | Python, uv |
+| Layer | Technology |  
+|---|---|  
+| Agent Orchestration | LangGraph |  
+| LLM | OpenAI GPT-4o-mini |  
+| Tools & Chains | LangChain, LangChain Community |  
+| Browser Automation | Playwright |  
+| UI | Gradio |  
+| Environment | Python, uv |  
 
 ---
 
 ## Project Structure
 
-dispatch-agent/
-├── app.py               # Gradio UI and event handlers
-├── dispatch.py          # Core agent — State, graph, worker, evaluator
-├── dispatch_tools.py    # Tool definitions — browser, search, file, REPL etc.
-├── sandbox/             # Scoped directory for file management tools
-├── Test_pics/           # Screenshots of the running application
-└── .gitignore
+dispatch-agent/  
+├── app.py               # Gradio UI and event handlers  
+├── dispatch.py          # Core agent — State, graph, worker, evaluator  
+├── dispatch_tools.py    # Tool definitions — browser, search, file, REPL etc.  
+├── sandbox/             # Scoped directory for file management tools  
+├── Test_pics/           # Screenshots of the running application  
+└── .gitignore  
 
 ---
 
